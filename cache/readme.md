@@ -33,3 +33,13 @@
     2. HTTP  1.1  更新  Cache-Control  相对时间
         maxAge  倒计时
 
+- 强缓存
+    expires     http 1.0
+    cache-control  max-age 
+
+- 缓存过期了怎么办？   一定要重新请求吗？ 
+    强缓存过期 但是服务器文件 变了or没变
+
+- 协商缓存
+    Last-Modified + If-Modified-Since
+    Etag +  If-None-Match
